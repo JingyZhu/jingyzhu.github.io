@@ -2,6 +2,6 @@
   description: "A project focusing on ultra low latency live video streaming. By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network."
   img: "/img/project/live_streaming.jpg"
 
-- name: "Low Latency Live Broadcast System"
-  description: "A project focusing on ultra low latency live video streaming. <br> By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network."
-  img: "/img/project/live_streaming.jpg"
+# - name: "Low Latency Live Broadcast System"
+#   description: "A project focusing on ultra low latency live video streaming. <br> By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network."
+#   img: "/img/project/live_streaming.jpg"

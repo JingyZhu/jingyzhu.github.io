@@ -57,9 +57,9 @@ delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "Hello"
   - text: "你好"
-  - text: "こんにちは"
-  - text: "Bonjour"
-  - text: "Hola"
+  # - text: "こんにちは"
+  # - text: "Bonjour"
+  # - text: "Hola"
 
 me-img: "/img/self.jpg"
 
