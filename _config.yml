@@ -48,15 +48,18 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 100
+type-speed: 50
 start-delay: 200
 delete-delay: 3000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello"
-  - text: "你好"
+  - text: "Hello!"
+  - text: "My name is Jingyuan"
+  - text: "I'm a first year Ph.D in CS @ UMich"
+  # - text: "你好"
+  # - text: ""
   # - text: "こんにちは"
   # - text: "Bonjour"
   # - text: "Hola"
@@ -229,6 +232,3 @@ gems:
   - jemoji
 
 
-  # Self added
-# main_pages: 
-#   - /pages/about.html
