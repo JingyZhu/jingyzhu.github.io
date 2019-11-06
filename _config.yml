@@ -32,7 +32,7 @@ lang: "en"
 author: "Jingyuan Zhu"
 title: "Jingyuan Zhu"
 description: "Personal Website about Jingyuan Zhu"
-keywords: "Jingyuan, Zhu, personal, jekyll, theme"
+keywords: "Jingyuan, Zhu"
 favicon: "/img/favicon.ico"
 
 ################
@@ -114,7 +114,7 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
+email-share: False
 fb-share: True
 twitter-share: True
 linkedin-share: True
@@ -153,7 +153,7 @@ events:
 # Contact #
 ###########
 
-email: "jingyz@umich.edu"
+# email: "jingyz@umich.edu"
 
 ################
 # Author Blurb #
@@ -163,7 +163,7 @@ email: "jingyz@umich.edu"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: ""
 author_blurb_image: "/img/author.jpg"
 
 ##################
@@ -173,8 +173,8 @@ author_blurb_image: "/img/author.jpg"
 social:
   - title: "facebook"
     url: "https://facebook.com/"
-  - title: "envelope"
-    url: "mailto:jingyz@umich.edu"
+  # - title: "envelope"
+  #   url: "mailto:jingyz@umich.edu"
   - title: "github"
     url: "https://github.com/JingyZhu/"
   - title: "linkedin"
@@ -208,7 +208,7 @@ pages_list:
   About: 'about'
   Education: 'education'
   Project: 'project'
-  Publication: 'comments'
+  Publication: 'publication'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
@@ -227,3 +227,8 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+
+  # Self added
+# main_pages: 
+#   - /pages/about.html
