@@ -1,7 +1,7 @@
 
 <!-- Post List Start -->
 
-<h4 align="left">
+<h4 align="left" style="text-transform: capitalize;">
   <strong>{{ post.date | date_to_string }}</strong>
   <small>.
     <a class="category" href="{{site.baseurl}}/categories/{{ post.category | downcase }}.html">
@@ -13,7 +13,6 @@
     <strong>{{ post.title }}</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
 </h4>
 
 <!-- Post List End -->

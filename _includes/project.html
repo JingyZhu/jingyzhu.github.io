@@ -1,7 +1,7 @@
 
 <!-- Latest Post Preview Start -->
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
+<section id="{{ page.section-type }}" class="container content-section">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
 
@@ -10,12 +10,13 @@
         {% for proj in site.data.project %}
         <div style="overflow: auto; margin-top: 40px;">
             <div style="float:left; width:70%;">
-                <h4 align="left">{{ proj.name }}</h4>
-                <p align="left"> {{ proj.description }} </p>
+                <h4 align="left"> {{ proj.name }}</h4>
+                {{ proj.description | markdownify }}
+                <!-- <p align="left"> {{ proj.description }} </p> -->
             </div>
-                <img src="{{site.baseurl}}{{proj.img}}" style="
-                            border: 0;
-                            width: 30%;" />
+            <div style="float:right; width:30%;">
+                <img src="{{site.baseurl}}{{proj.img}}" style="border: 0;" />
+            </div>
 
         </div>
 

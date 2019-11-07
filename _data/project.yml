@@ -1,7 +1,8 @@
-- name: "(Current working on) Measuring the decay of web"
+# You can write in markdown for description
+- name: "(Currently working on) Measuring the decay of web"
   description: "Quantifying the broken pages with respect to its creation time, the reason why it is broken (network error, host structure modification) and whehter it has some copy on other sites."
   img: ""
 
 - name: "Low Latency Live Broadcast System"
-  description: "A project focusing on ultra low latency live video streaming. <br> By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network."
+  description: "A project focusing on ultra low latency live video streaming. By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network. Here is the [demo](https://youtu.be/DdVOrf8WxU4){:target=\"_blank\"}"
   img: "/img/project/live_streaming.jpg"

@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -101,7 +101,7 @@ a {
         }
     }
     .navbar-brand {
-        font-weight:700;
+        // font-weight:700;
         &:focus {
             outline: none;
         }
@@ -160,6 +160,14 @@ a {
         }
     }
 }
+
+/* self defined style */
+a.non-index-nav {
+    color: $font-color;
+    font-weight: normal;
+}
+
+/* end */
 
 .intro {
     display: table;
