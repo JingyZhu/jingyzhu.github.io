@@ -7,7 +7,7 @@
 
         {{ page.content | markdownify }}
 
-        {% for post in site.posts offset:3 %}
+        {% for post in site.posts limit:3 %}
         <!-- {% assign post = site.posts.first %} -->
         <h4  style="text-transform: capitalize;"> <strong> {{ post.date | date_to_string }} </strong>
           <small>.
