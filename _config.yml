@@ -212,7 +212,7 @@ pages_list:
   Education: 'education'
   Project: 'project'
   Publication: 'publication'
-  # Blog: 'latest-post'
+  Blog: 'latest-post'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
@@ -227,6 +227,8 @@ paginate_path: "blog/page:num/"
 
 sass:
   style: compressed
+
+markdown: kramdown
 
 plugins:
   - jekyll-paginate

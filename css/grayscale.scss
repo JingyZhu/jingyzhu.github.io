@@ -58,6 +58,13 @@ p {
     }
 }
 
+section,
+li {
+    p {
+        margin: 0 0 35px;
+    }
+}
+
 div {
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -458,4 +465,28 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
+}
+
+/* self added */
+.posts {
+    ul {
+        margin: 0 0 25px;
+        list-style-position: outside;
+        text-align: left;
+    }
+
+    section,
+    li {
+        P {
+            margin: 0 0 0px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 0 25px;
+        }
+    }
 }

@@ -22,6 +22,7 @@
             {% for post in site.posts %}
               {% for t in post.tags %}
                 {% capture tg %}{{ t | downcase }}{% endcapture %}
+                {% capture tag %}{{ tag | downcase }}{% endcapture %}
                 {% if tg == tag %}
                   {% include post-list.html%}
                 {% endif %}
