@@ -59,7 +59,7 @@ Safety is assumed to be true by other techniques
   - Only works if every server SUGGEST at the same rate
   - Otherwise it will leaves holes to prevent anyone from commit
 
-- If server *p*  receive SUGGEST with instance $ i>I_p$ , it updates $I_p$ to **$I'_p =k: k > i \and p$  coordinates on $p$**. And propose *noop* for all instance between that it coordinates.
+- If server *p*  receive SUGGEST with instance $ i>I_p$ , it updates $I_p$ to **$I'_p =k: k > i \land p$  coordinates on $p$**. And propose *noop* for all instance between that it coordinates.
 
   - If server crashes, it can't broadcast its' SKIP
 
