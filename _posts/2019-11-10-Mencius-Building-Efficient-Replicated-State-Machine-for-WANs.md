@@ -4,7 +4,7 @@ layout: post
 section-type: post
 tags:
 - EECS591
-title: Mencius Building Efficient Replicated State Machine for WANs
+title: "Mencius: Building Efficient Replicated State Machine for WANs"
 
 ---
 ## Motivation
