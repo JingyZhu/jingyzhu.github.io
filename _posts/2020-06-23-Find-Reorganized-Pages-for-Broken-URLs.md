@@ -11,11 +11,11 @@ Hello, this is a page describing our research project. If you are **a site admin
 <br><br><br>
 
 ### Brief description
-It is well known that web is decaying, namely pages created in the past are gradually broken as time goes on. However, it remains unclear that what's the status of their breakage and why they are broken. In order to figure out the answer to those questions, our project is trying to crawl URLs created at different times to see what's the fraction of broken pages and more importantly, why are they broken. 
+It is well known that web is decaying, namely pages created in the past are gradually broken as time goes on. However, it remains unclear that what's the status of their breakage and why they are broken. In order to figure out the answers to those questions, our project is trying to crawl URLs created at different times to see what's the fraction of broken pages and more importantly, why are they broken. 
 
-In fact, we found that many broken pages are not "really" broken. Although the page (or content) are no longer accessible from the URL, it could be the reason that the web hosts have reorganized the site structures and the page is moved to new places.  
+In fact, we found that many broken pages are not "really" broken. Although the page (or content) are no longer accessible from the URL, it could be the reason that the web hosts have reorganized the site structures and the page is moved to a new place.  
 
-Currenly, we are trying to develop a system that can help web hosts automatically found broken pages and the potential reorganized URLs that the old page could be moved to, so that redirections can be automatically set up without human effort.
+Currenly, we are trying to develop a system that can help web hosts automatically find broken pages and the potential reorganized URLs that the old page could be moved to, so that redirections can be automatically set up without human effort.
 <br><br><br>
 
 ### For the web hosts:
