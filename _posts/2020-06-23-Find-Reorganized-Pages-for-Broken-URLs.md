@@ -20,7 +20,7 @@ Currenly, we are trying to develop a system that can help web hosts automaticall
 
 ### For the web hosts:
 During this study, we have to crawl a large scale of URLs in order to collect persuasive data and examples, as well as to test our system. We try our best to spread our the traffic and respect the policy of your site. Here is what we have done to achieve those goals:
-- Whenever possible, we shuffle all the URLs in our queue, so that at each period, there will be minimum requests to a single domain.
-- We first crawl a domain's robots.txt, and then follows rule specified on it.
+- Whenever possible, we randomly shuffle all the URLs in our queue, so that at each period, there will be minimum requests to a single domain.
+- We first crawl a domain's robots.txt, and then follow rule specified on it.
 
-We just wwant to clarify that all the crawls (including content) are only used as the determination of a page's breakage and same page matching. There is no other usage. If you still feel uncomfortable with our crawls, please contact us at jingyz AT umich DOT edu to let us know.
+We just want to clarify that all the crawls (including content) are only used as the determination of a page's breakage and same page matching. There is no other usage. If you still feel uncomfortable with our crawls, please contact us at jingyz AT umich DOT edu to let us know.
