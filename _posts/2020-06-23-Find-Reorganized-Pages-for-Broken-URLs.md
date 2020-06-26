@@ -15,7 +15,7 @@ title: "Find Reorganized Pages for Broken URLs"
 Hello, this is a page describing our research project. If you are **a site administrator who is redirected here by our crawls (from the link in the user-agent)**, we hope this post can provide some information for why we crawl your pages.
 <br><br><br>
 
-### Brief description
+### What does this project do?
 It is well known that web is decaying, namely pages created in the past are gradually broken as time goes on. However, it remains unclear that what's the status of their breakage and why they are broken. In order to figure out the answers to those questions, our project is trying to crawl URLs created at different times to see what's the fraction of broken pages and more importantly, why are they broken. 
 
 In fact, we found that many broken pages are not "really" broken. Although the page (or content) are no longer accessible from the URL, it could be the reason that the web hosts have reorganized the site structures and the page is moved to a new place.  
