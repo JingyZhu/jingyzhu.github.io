@@ -3,8 +3,9 @@ category: Info
 layout: post
 section-type: post
 tags:
-- Project Description
+- Project-Description
 title: "Find Reorganized Pages for Broken URLs"
+permalink: /ReorgPageFinder
 ---
 
 <img src="https://www.eecs.umich.edu/eecs/images/faculty-CSE-hi.png" alt="CSE-Logo" title="CSE-Logo" style="border: 0"/>
@@ -25,9 +26,9 @@ Currenly, we are trying to develop a system that can help web hosts automaticall
 
 ### Project Members
 - Jingyuan Zhu: PhD Student @ CSE
-- Jiangchen Zhu: Undergrad Student @ CSE
+- Jiangchen Zhu: Undergrad @ CSE --> PhD Student @ Columbia
 - Vaspol Ruamviboonsuk: PhD Student @ CSE
-- Harsha V. Madhyastha: Prof @ CSE
+- Harsha V. Madhyastha: Professor @ CSE
 <br><br><br>
 
 ### For the web hosts:

@@ -1,6 +1,6 @@
 # You can write in markdown for description
 - name: "(Currently working on) Find Reorganized Pages for Broken URLs"
-  description: "Quantifying the broken pages with respect to its age, and figuring out the reasons for why URLs are broken. Based on that, build a system that can automatically detect broken urls and give potential reorganized URL for a certain broken URL. [More Info](info/2020/06/23/Find-Reorganized-Pages-for-Broken-URLs.html)"
+  description: "Quantifying the broken pages with respect to its age, and figuring out the reasons for why URLs are broken. Based on that, build a system that can automatically detect broken urls and give potential reorganized URL for a certain broken URL. [More Info](ReorgPageFinder)"
   img: ""
 
 - name: "Low Latency Live Broadcast System"

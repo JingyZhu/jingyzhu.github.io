@@ -12,7 +12,7 @@ Dir.foreach(POSTS_DIR) do |post|
   unless (postYaml['category'] == nil)
     category = postYaml['category']
 
-    unless File.exist?(CATEGORIES_DIR + category.downcase + '.html')
+    unless File.exist?(CATEGORIES_DIR + category + '.html')
 
       puts('[+] Generating #' + category + ' page')
 
