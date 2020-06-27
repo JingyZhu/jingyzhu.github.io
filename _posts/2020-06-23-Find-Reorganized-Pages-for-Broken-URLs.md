@@ -5,7 +5,7 @@ section-type: post
 tags:
 - Project-Description
 title: "Find Reorganized Pages for Broken URLs"
-permalink: /ReorgPageFinder
+permalink: /ReorgPageFinder/
 ---
 
 <img src="https://www.eecs.umich.edu/eecs/images/faculty-CSE-hi.png" alt="CSE-Logo" title="CSE-Logo" style="border: 0"/>
