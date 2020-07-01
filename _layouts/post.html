@@ -20,10 +20,12 @@
           <h4>
             <strong>{{ page.date | date_to_string }}</strong>
             <small>
+            {% if page.category %}
               category:
               <a class="category" href="{{site.baseurl}}/categories/{{page.category}}.html">
                 {{ page.category }}
               </a>.
+            {% endif %}
               <br />
               {% for tag in page.tags %}
                 <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
