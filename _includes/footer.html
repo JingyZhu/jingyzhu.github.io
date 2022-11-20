@@ -1,21 +1,25 @@
-<!-- Footer Start -->
-
-<footer>
-
-    {% include social-buttons.html %}
-
-    <p><br><br></p>
-
-    <div class="container text-center">
-        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
-        {% if site.keybase-in-footer %}
-        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
-                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
-        {% endif %}
-        <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a>,  learned from <a href="https://github.com/le4ker/personal-jekyll-theme/tree/master/">personal-jekyll-theme</a></p>
-    </div>
-</footer>
-
-<p><br><br><br><br><br><br></p>
-
-<!-- Footer End -->
+    {% if site.footer_fixed %}
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- else -%}
+    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- endif %}

@@ -1,8 +1,0 @@
-# You can write in markdown for description
-- name: "(Currently working on) Find Reorganized Pages for Broken URLs"
-  description: "Quantifying the broken pages with respect to its age, and figuring out the reasons for why URLs are broken. Based on that, build a system that can automatically detect broken urls and give potential reorganized URL for a certain broken URL. [More Info](web-research/)"
-  img: ""
-
-- name: "Low Latency Live Broadcast System"
-  description: "A project focusing on ultra low latency live video streaming. By ultilizing the Intel's hardware for encoding/decoding acceleration (VAAPI). Reduced the latency to ~40ms in LAN network. Here is the [demo](https://youtu.be/DdVOrf8WxU4){:target=\"_blank\"}"
-  img: "/img/project/live_streaming.jpg"

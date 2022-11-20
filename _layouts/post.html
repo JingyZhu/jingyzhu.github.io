@@ -1,68 +1,61 @@
+---
+layout: default
+---
+<!-- _layouts/post.html -->
+{%- assign year = page.date | date: "%Y" -%}
+{%- assign tags = page.tags | join: "" -%}
+{%- assign categories = page.categories | join: "" -%}
 
-<!-- Post Layout Start -->
+{% if page._styles %}
+<!-- Page/Post style -->
+<style type="text/css">
+  {{ page._styles }}
+</style>
+{% endif %}
 
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<div class="post">
 
-  {% include head.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-tags">
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+      {%- if tags != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for tag in page.tags -%}
+        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+          <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+          {% endfor -%}
+      {% endif %}
 
-  <body>
+      {%- if categories != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for category in page.categories -%}
+        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+          {% endfor -%}
+      {% endif %}
 
-    {% include navigation.html %}
+    </p>
+  </header>
 
-    <section id="post" class="container content-section text-center">
-      <div class="row">
-        <div class="col-md-11  posts">
+  <article class="post-content">
+    {{ content }}
+  </article>
 
-  
+  {%- if site.disqus_shortname and page.comments -%}
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = '{{ site.disqus_shortname }}';
+      var disqus_identifier = '{{ page.id }}';
+      var disqus_title      = {{ page.title | jsonify }};
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  {%- endif %}
 
-          <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <strong>{{ page.date | date_to_string }}</strong>
-            <small>
-            {% if page.category %}
-              category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category}}.html">
-                {{ page.category }}
-              </a>.
-            {% endif %}
-              <br />
-              {% for tag in page.tags %}
-                <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
-              {% endfor %}
-            </small>
-          </h4>
-
-          <section class="text-justify">
-            {{ page.content | markdownify }}
-          </section>
-
-
-          {% if jekyll.environment == "production" %}
-            {% include comments.html %}
-          {% endif %}
-
-
-
-          <hr />
-
-          {% if site.author_blurb %}
-          <div class="author row">
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
-            <p class="col-xs-8 col-sm-9 col-md-10">
-              {{ site.author_blurb }}
-            </p>
-          </div>
-          {% endif%}
-        </div>
-      </div>
-    </section>
-
-    {% include footer.html %}
-
-    {% include js.html %}
-
-  </body>
-</html>
-
-<!-- Post Layout End -->
+</div>
