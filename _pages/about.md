@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D student in <a href="https://cse.engin.umich.edu/">CS @ UMich</a>
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  align: left
+  image: me.jpg
+  image_cicular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, my name is Jingyuan Zhu. I'm a Ph.D Candidate at Computer Science Engineering at University of Michigan, advised by [Prof. Harsha V. Madhyastha](https://web.eecs.umich.edu/~harshavm/). 
+My research interest is in Network Systems. 
+Specifically, my research focuses on studying & characterization of broken links on the web, and deriving solutions for dealing with broken links with the leverage of web archives. 
+Up to now, I've looked into the reason for [broken references on Wikipedia](https://dl.acm.org/doi/10.1145/3517745.3561451), helped design a [new web archive](https://www.usenix.org/conference/osdi22/presentation/goel) that saves storage and preserves better fidelity, 
+and implemented a [system](https://webresearch.eecs.umich.edu/fable/) that automatically finds new URLs for the same pages whose original URLs no longer resolve.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before studying as a Ph.D in Michigan, I received BSE from UM in CS in a dual degree with BSE from [Shanghai Jiao Tong University](https://www.ji.sjtu.edu.cn/) in ECE
