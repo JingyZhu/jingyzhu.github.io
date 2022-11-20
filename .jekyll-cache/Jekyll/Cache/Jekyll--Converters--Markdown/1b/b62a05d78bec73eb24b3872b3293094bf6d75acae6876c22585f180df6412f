@@ -1,0 +1,8 @@
+I"I<p>Hello, my name is Jingyuan Zhu. I’m a Ph.D Candidate at Computer Science Engineering at University of Michigan, advised by <a href="https://web.eecs.umich.edu/~harshavm/">Prof. Harsha V. Madhyastha</a>. 
+My research interest is in Network Systems. 
+Specifically, my research focuses on studying &amp; characterization of broken links on the web, and deriving solutions for dealing with broken links with the leverage of web archives. 
+Up to now, I’ve looked into the reason for <a href="https://dl.acm.org/doi/10.1145/3517745.3561451">broken references on Wikipedia</a>, helped design a <a href="https://www.usenix.org/conference/osdi22/presentation/goel">new web archive</a> that saves storage and preserves better fidelity, 
+and implemented a <a href="https://webresearch.eecs.umich.edu/fable/">system</a> that automatically finds new URLs for the same pages whose original URLs no longer resolve.</p>
+
+<p>Before studying as a Ph.D in Michigan, I received BSE from UM in CS in a dual degree with BSE from <a href="https://www.ji.sjtu.edu.cn/">Shanghai Jiao Tong University</a> in ECE</p>
+:ET

@@ -1,0 +1,136 @@
+I"Ä<!-- _pages/publications.md -->
+<div class="publications">
+
+<!-- -->
+
+<ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"> --><!-- <abbr class="badge">HotNets22</abbr> --><!-- </div> -->
+
+        <!-- Entry bib key -->
+        <div id="goel2022making" class="col-sm-12">
+        
+          <!-- Title -->
+          <div class="title">Making links on your web pages last longer than you</div>
+          <!-- Author -->
+          <div class="author">
+          Ayush Goel,&nbsp;
+                  <em>Jingyuan Zhu</em>,&nbsp; and 
+                Harsha V Madhyastha
+
+          
+
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 21st ACM Workshop on Hot Topics in Networks</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"> --><!-- <abbr class="badge">IMC22</abbr> --><!-- </div> -->
+
+        <!-- Entry bib key -->
+        <div id="nyayachavadi2022characterizing" class="col-sm-12">
+        
+          <!-- Title -->
+          <div class="title">Characterizing "permanently dead" links on Wikipedia</div>
+          <!-- Author -->
+          <div class="author">
+          Anish Nyayachavadi,&nbsp;
+                  <em>Jingyuan Zhu</em>,&nbsp; and 
+                Harsha V Madhyastha
+
+          
+
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 22nd ACM Internet Measurement Conference</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"> --><!-- <abbr class="badge">OSDI22</abbr> --><!-- </div> -->
+
+        <!-- Entry bib key -->
+        <div id="goel2022jawa" class="col-sm-12">
+        
+          <!-- Title -->
+          <div class="title">Jawa: Web Archival in the Era of {JavaScript}</div>
+          <!-- Author -->
+          <div class="author">
+          Ayush Goel,&nbsp;
+                  <em>Jingyuan Zhu</em>,&nbsp;Ravi Netravali,&nbsp; and 
+                Harsha V Madhyastha
+
+          
+
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"> --><!-- <abbr class="badge">IISWC20</abbr> --><!-- </div> -->
+
+        <!-- Entry bib key -->
+        <div id="chen2020cpu" class="col-sm-12">
+        
+          <!-- Title -->
+          <div class="title">CPU microarchitectural performance characterization of cloud video transcoding</div>
+          <!-- Author -->
+          <div class="author">
+          Yuhan Chen,&nbsp;
+                  <em>Jingyuan Zhu</em>,&nbsp;Tanvir Ahmed Khan,&nbsp; and 
+                Baris Kasikci
+
+          
+
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2020 IEEE International Symposium on Workload Characterization (IISWC)</em> 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+</div>
+:ET
