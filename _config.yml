@@ -60,7 +60,7 @@ delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "Hello!"
   - text: "My name is Jingyuan"
-  - text: "I'm a first year Ph.D in CS @ UMich"
+  - text: "I'm a Ph.D student in CS @ UMich"
   # - text: "你好"
   # - text: ""
   # - text: "こんにちは"
