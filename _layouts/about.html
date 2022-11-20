@@ -30,7 +30,7 @@ layout: default
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
-              {{ page.profile.address }}
+              {{ page.profile.address | markdownify }}
             </div>
             {%- endif %}
           </div>
@@ -40,6 +40,8 @@ layout: default
             {{ content }}
           </div>
 
+          <br>
+          <br>
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: ABOUT
 permalink: /
 subtitle: Ph.D student in <a href="https://cse.engin.umich.edu/">CS @ UMich</a>
 
@@ -8,12 +8,21 @@ profile:
   align: left
   image: me.jpg
   image_cicular: true # crops the image to make it circular
-  address: >
+  address: > 
+    <i class="fas fa-map-marker-alt"></i> Ann Arbor, Michigan
+    <br>
+    <i class="fas fa-envelope"></i> [Email]()
+    <br>
+    <i class="fab fa-github"></i> [Github](https://github.com/JingyZhu)
+    <br>
+    <i class="ai ai-google-scholar"></i> [Google Scholar](https://scholar.google.com/citations?user=aq4b2v3jgMAC)
+    
+    
     
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hello, my name is Jingyuan Zhu. I'm a Ph.D Candidate at Computer Science Engineering at University of Michigan, advised by [Prof. Harsha V. Madhyastha](https://web.eecs.umich.edu/~harshavm/). 

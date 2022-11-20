@@ -29,7 +29,7 @@
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="http://localhost:4000/">
@@ -67,25 +67,21 @@
 
               <!-- About -->
               <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">ABOUT<span class="sr-only">(current)</span></a>
               </li>
               
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
+                <a class="nav-link" href="/publications/">PUBLICATIONS</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
+                <a class="nav-link" href="/cv/">CV</a>
               </li>
               <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">others</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OTHERS</a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
                 </div>
               </li>
 
@@ -133,7 +129,8 @@
 </figure>
 
             <div class="address">
-              
+              <p><i class="fas fa-map-marker-alt"></i> Ann Arbor, Michigan <br> <i class="fas fa-envelope"></i> <a href="">Email</a> <br> <i class="fab fa-github"></i> <a href="https://github.com/JingyZhu" target="_blank" rel="noopener noreferrer">Github</a> <br> <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=aq4b2v3jgMAC" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+
             </div>
           </div>
 
@@ -148,29 +145,25 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
 
           </div>
 
+          <br>
+          <br>
           <!-- News -->          
           <div class="news">
-            <h2>news</h2>
+            <h2>News</h2>
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
                
                 <tr>
-                  <th scope="row">Jan 15, 2016</th>
+                  <th scope="row">Nov 14, 2022</th>
                   <td>
-                    A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
+                    Attended <a href="https://conferences.sigcomm.org/hotnets/2022/" target="_blank" rel="noopener noreferrer">HotNets22</a>. Enjoy in Austin, Texas!
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Nov 7, 2015</th>
+                  <th scope="row">Sep 20, 2022</th>
                   <td>
-                    <a class="news-title" href="/news/announcement_2/">A long announcement with details</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Oct 22, 2015</th>
-                  <td>
-                    A simple inline announcement.
+                    Submitted a paper to NSDI22.
  
                   </td>
                 </tr> 
@@ -194,8 +187,9 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
           <div class="title">Making links on your web pages last longer than you</div>
           <!-- Author -->
           <div class="author">
-          Ayush, Goel, Zhu, Jingyuan,  and 
-                Madhyastha, Harsha V.
+          Goel Ayush, 
+                  <em>Jingyuan Zhu</em>,  and 
+                Harsha V. Madhyastha
 
           
 
@@ -226,8 +220,9 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
           <div class="title">Characterizing "permanently dead" links on Wikipedia</div>
           <!-- Author -->
           <div class="author">
-          Nyayachavadi, Anish, Zhu, Jingyuan,  and 
-                Madhyastha, Harsha V
+          Anish Nyayachavadi, 
+                  <em>Jingyuan Zhu</em>,  and 
+                Harsha V Madhyastha
 
           
 
@@ -258,25 +253,10 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
           <div class="title">Jawa: Web Archival in the Era of {JavaScript}</div>
           <!-- Author -->
           <div class="author">
-          Goel, Ayush, Zhu, Jingyuan, 
-                Netravali, Ravi
+          Ayush Goel, 
+                  <em>Jingyuan Zhu</em>, Ravi Netravali,  and 
+                Harsha V Madhyastha
 
-          
-            
-            
-            and
-            <span class="more-authors" title="click to view 1 more author" onclick="
-                  var element = $(this);
-                  element.attr('title', '');
-                  var more_authors_text = element.text() == '1 more author' ? 'Madhyastha, Harsha V' : '1 more author';
-                  var cursorPosition = 0;
-                  var textAdder = setInterval(function(){
-                    element.text(more_authors_text.substring(0, cursorPosition + 1));
-                    if (++cursorPosition == more_authors_text.length){
-                      clearInterval(textAdder);
-                    }
-                  }, 15);
-                ">1 more author</span>
           
 
           </div>
@@ -306,25 +286,10 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
           <div class="title">CPU microarchitectural performance characterization of cloud video transcoding</div>
           <!-- Author -->
           <div class="author">
-          Chen, Yuhan, Zhu, Jingyuan, 
-                Khan, Tanvir Ahmed
+          Yuhan Chen, 
+                  <em>Jingyuan Zhu</em>, Tanvir Ahmed Khan,  and 
+                Baris Kasikci
 
-          
-            
-            
-            and
-            <span class="more-authors" title="click to view 1 more author" onclick="
-                  var element = $(this);
-                  element.attr('title', '');
-                  var more_authors_text = element.text() == '1 more author' ? 'Kasikci, Baris' : '1 more author';
-                  var cursorPosition = 0;
-                  var textAdder = setInterval(function(){
-                    element.text(more_authors_text.substring(0, cursorPosition + 1));
-                    if (++cursorPosition == more_authors_text.length){
-                      clearInterval(textAdder);
-                    }
-                  }, 15);
-                ">1 more author</span>
           
 
           </div>
@@ -345,22 +310,6 @@ and implemented a <a href="https://webresearch.eecs.umich.edu/fable/" target="_b
 </ol>
           </div>
 
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            <a href="mailto:%6A%69%6E%67%79%7A@%75%6D%69%63%68.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
-            <a href="https://scholar.google.com/citations?user=aq4b2v3jgMAC" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
-            <a href="https://github.com/JingyZhu" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            <a href="http://localhost:4000/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            
-            </div>
-
-            <div class="contact-note">
-              You can even add a little note about which of these is the best way to reach you.
-
-            </div>
-            
-          </div>
         </article>
 
 </div>
