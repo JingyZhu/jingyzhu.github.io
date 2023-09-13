@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-20
+date: 2022-11-14
 inline: true
 ---
 
-Submitted a paper to NSDI23.
+Attended **[HotNets22](https://conferences.sigcomm.org/hotnets/2022/)**. Enjoy in Austin, Texas!

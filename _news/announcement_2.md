@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-11-14
+date: 2023-8-18
 inline: true
 ---
 
-Attended [HotNets22](https://conferences.sigcomm.org/hotnets/2022/). Enjoy in Austin, Texas!
+Interned @ **Google** this summer. Had a great time in Seattle with the **Browser Loading team (now MoQaTi)**!
