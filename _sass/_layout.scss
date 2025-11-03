@@ -33,6 +33,13 @@ body.sticky-bottom-footer {
   }
 }
 
+// About page content layout
+.post article .clearfix {
+  @media (min-width: 576px) {
+    margin-left: calc(30% + 2rem);
+  }
+}
+
 // TODO: redefine content layout.
 
 
