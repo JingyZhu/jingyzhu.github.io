@@ -16,6 +16,8 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    # Pin sass-embedded to avoid build errors with Ruby 3.1.4 (JSON::Fragment error in 1.93.x)
+    gem 'sass-embedded', '~> 1.89.2'
 end
 group :other_plugins do
     gem 'httparty'
