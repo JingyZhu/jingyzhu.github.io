@@ -1,6 +1,6 @@
 ---
 layout: about
-title: ABOUT
+title: About
 permalink: /
 subtitle: '<strong><a href="https://machinelearning.apple.com/">AIML</a> @ Apple</strong> 
            <br> 
